@@ -67,6 +67,7 @@ main textarea{
 .add-btn:hover{
   background-color: white;
   color:rgb(46, 170, 228);
+  cursor:pointer;
 }
 
 .calculate-media-btn:active,
@@ -84,7 +85,7 @@ main textarea{
   padding-bottom:30px;
   box-sizing: border-box;
 }
-#grades-container div{
+#grades-container form{
   padding:20px;
   display:flex;
   align-items: center;
